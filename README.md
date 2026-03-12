@@ -1,28 +1,28 @@
-#ML Prerequisites - One Shot
+#  ML Prerequisites - One Shot
 
 > Everything you need to know before diving into Machine Learning — covered quickly, clearly, and with real code examples.
 
-##A Note from Meeee
+##  A Note from the Author
 
-Run these codes for learning — tried to cover most of the topics in these notebooks. Matplotlib and Seaborn are not that mandatory for ML when you're just starting out, so don't stress over them for now. Focus on Python, NumPy, and Pandas first and you'll be in great shape! 🙌
+Run these codes for learning — tried to cover most of the topics in these notebooks. Matplotlib and Seaborn are not that mandatory for ML when you're just starting out, so don't stress over them for now. Focus on Python, NumPy, and Pandas first and you'll be in great shape! 
 
 This repository is designed for **absolute beginners** who want to get into Machine Learning but don't want to spend months studying prerequisites. All notebooks are written by **Omar Abdullah** and cover the essential Python tools used in every ML project.
 
 ---
 
-##What's Inside
+##  What's Inside
 
 | Notebook | Topics Covered |
-
-| `Basic Python`| Core Python fundamentals |
+|---|---|
+| `Basic Python` | Core Python fundamentals |
 | `NumPy` | NumPy arrays, math, and matrix operations |
 | `Pandas` | Data manipulation and analysis with Pandas |
 
 ---
 
-##1. Python for ML
+##  1. Python for ML
 
-**File:** `python_for_ml_omar.ipynb`
+**File:** `Basic Python`
 
 A quick-fire walkthrough of the Python concepts that show up constantly in ML code.
 
@@ -114,9 +114,9 @@ print(type(x))  # <class 'numpy.ndarray'>
 
 ---
 
-##2. NumPy
+##  2. NumPy
 
-**File:** `NumPy_by_omar.ipynb`
+**File:** `NumPy`
 
 NumPy is the backbone of all numerical computing in Python. ML frameworks like TensorFlow and PyTorch are built on its concepts.
 
@@ -247,9 +247,9 @@ np.linalg.matrix_power(x, 5)  # Power
 
 ---
 
-## 🐼 3. Pandas
+##  3. Pandas
 
-**File:** `pandas_by_omar.ipynb`
+**File:** `Pandas`
 
 Pandas is your go-to tool for loading, cleaning, and exploring datasets before feeding them to any ML model.
 
@@ -362,13 +362,19 @@ data.reset_index()                       # Reset to default index
 
 ---
 
-## 🛠️ How to Run These Notebooks
+##  How to Run These Notebooks
 
 ### Option A — Google Colab (Easiest, no setup needed)
 1. Go to [colab.research.google.com](https://colab.research.google.com)
 2. Click **File → Upload notebook**
 3. Upload any `.ipynb` file from this repo
 4. Click **Runtime → Run all**
+
+>  **For the Pandas notebook specifically** — you must upload the two dataset files before running:
+> - `matches.csv`
+> - `deliveries.csv`
+>
+> In Google Colab, click the ** Files icon** on the left sidebar → **Upload** → select both CSV files. Without these files the Pandas notebook will throw an error.
 
 ### Option B — Locally with Jupyter
 ```bash
@@ -379,7 +385,7 @@ Then open any `.ipynb` file from the browser interface.
 
 ---
 
-##Requirements
+##  Requirements
 
 ```
 numpy
@@ -396,10 +402,10 @@ pip install numpy pandas matplotlib scikit-learn jupyter
 
 ---
 
-## 🗺️ Learning Path
+##  Learning Path
 
 ```
-Python Basics  →  NumPy  →  Pandas  →  You're ready for ML! 🎉
+Python Basics  →  NumPy  →  Pandas  →  You're ready for ML! 
 ```
 
 Once you're comfortable with these three notebooks, you're ready to start learning:
@@ -409,21 +415,21 @@ Once you're comfortable with these three notebooks, you're ready to start learni
 
 ---
 
-##Author
+##  Author
 
 **Omar Abdullah**  
 Notebooks written and maintained as part of a self-learning ML journey.
 
 ---
 
-##Contributing
+##  Contributing
 
 Found a bug or want to add more examples? Feel free to open an issue or submit a pull request. All contributions welcome!
 
-This repo is **open for all** — share it with your friends as much as you can! The more people learn, the better. 🤝 If this helped you, consider giving it a ⭐ and passing it along to anyone starting their ML journey.
+This repo is **open for all** — share it with your friends as much as you can! The more people learn, the better.  If this helped you, consider giving it a  and passing it along to anyone starting their ML journey.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
