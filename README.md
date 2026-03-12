@@ -14,9 +14,9 @@ This repository is designed for **absolute beginners** who want to get into Mach
 
 | Notebook | Topics Covered |
 
-| `python_for_ml_omar.ipynb` | Core Python fundamentals |
-| `NumPy_by_omar.ipynb` | NumPy arrays, math, and matrix operations |
-| `pandas_by_omar.ipynb` | Data manipulation and analysis with Pandas |
+| `Basic Python`| Core Python fundamentals |
+| `NumPy` | NumPy arrays, math, and matrix operations |
+| `Pandas` | Data manipulation and analysis with Pandas |
 
 ---
 
